@@ -5,8 +5,7 @@ on:
 
 jobs:
   build-and-test:
-    runs_on:
-      os: [ubuntu-16.04, ubuntu-latest,macos-latest]
+    runs_on: ubuntu_latest
     steps:
       - name: checkout master branch in github virtual env
         uses: actions/checkout@v2
