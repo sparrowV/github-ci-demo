@@ -1,7 +1,7 @@
 name: Sample Github CI example
 on:
   push:
-    branches: [master]
+    branches: [ master ]
 
 jobs:
   build-and-test:
