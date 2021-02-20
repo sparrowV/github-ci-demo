@@ -1,0 +1,15 @@
+{
+  "scenarioName": "test scenario",
+  "steps": [
+    {
+      "name": "test hello world endpoint",
+      "method": "GET",
+      "url": "http://localhost:8080/hello",
+      "request": {},
+      "verify": {
+        "status": 200,
+        "rawBody": "Hello World"
+      }
+    }
+  ]
+}
