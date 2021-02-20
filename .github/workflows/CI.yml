@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - name: checkout master branch in github virtual env
         uses: actions/checkout@v2
@@ -18,5 +18,5 @@ jobs:
       - name: give permission to execute mvnw
         run: chmod +x mvnw
 
-      - name: Build project with maven
+      - name: Build project using  maven executable
         run: ./mvnw -B verify
