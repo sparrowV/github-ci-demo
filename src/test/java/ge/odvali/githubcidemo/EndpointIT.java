@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 @RunWith(ZeroCodeUnitRunner.class)
 public class EndpointIT {
 
-		@Test
-		@Scenario("endpoint_scenario.json")
-		public void endpoint_test(){}
+    @Test
+    @Scenario("endpoint_scenario.json")
+    public void endpoint_test() {
+    }
 }
