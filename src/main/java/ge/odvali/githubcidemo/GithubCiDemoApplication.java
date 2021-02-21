@@ -15,7 +15,7 @@ public class GithubCiDemoApplication {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello World";
+        return "Hello";
     }
 
 

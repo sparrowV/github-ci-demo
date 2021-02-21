@@ -18,5 +18,7 @@ jobs:
       - name: give permission to execute mvnw
         run: chmod +x mvnw
 
-      - name: Build project using  maven executable
+      - name: Build and test project using  maven executable
         run: ./mvnw -B verify
+
+
